@@ -1,3 +1,21 @@
+let jonSnowHealth = 100;
+
+//converting to string
+// jonSnowHealth =  String(jonSnowHealth)
+// jonSnowHealth = toString(jonSnowHealth)
+
+//converting to a number
+// jonSnowHealth = parseInt(jonSnowHealth)
+
+//converting to a boolean
+// jonSnowHealth = Boolean(jonSnowHealth)
+
+//converting using string coercion/concatenation
+// jonSnowHealth = jonSnowHealth + ' health'
+
+// jonSnowHealth = 'health - ' + jonSnowHealth
+
+//Find/replace
 let theWinnerIs = 'Jamie is the Winner';
 
 let newWinner = theWinnerIs.toLowerCase().replace('jamie', 'Jon');
@@ -23,7 +41,6 @@ console.log(transform)
 
 //check if Jon is alive
 
-let jonSnowHealth = 100;
 
 function isJonAlive() {
     if (jonSnowHealth > 0) {
